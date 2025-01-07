@@ -23,8 +23,8 @@ function Dashboard({ children }) {
 
   return (
     <>
-      <SidebarInset>
-        <header className="mb-2 w-[97.5%] justify-between flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12 border-solid border-b-2 border-slate-600/50">
+      <SidebarInset className="dark:bg-[#0B1120]">
+        <header className="w-[97.5%] justify-between flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12 border-solid border-b-2 border-slate-600/50">
           <div className="flex items-center gap-2 px-4">
             <SidebarTrigger className="-ml-1" />
             <Separator orientation="vertical" className="mr-2 h-4" />
@@ -72,7 +72,7 @@ function Dashboard({ children }) {
             <ModeToggle />
           </div>
         </header>
-        <div className="flex flex-1 flex-col gap-4 p-4 pt-0 md:w-[98.5%]">
+        <div className="flex flex-1 flex-col gap-4 pt-2 md:w-[98.5%] px-3">
           {/* <div className="grid auto-rows-min gap-4 md:grid-cols-3">
             <div className="aspect-video rounded-xl bg-muted/50" />
             <div className="aspect-video rounded-xl bg-muted/50" />

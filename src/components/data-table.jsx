@@ -117,7 +117,7 @@ export function DataTable({ columns, data }) {
         <Button
           variant="outline"
           onClick={handleClearFilters}
-          className="ml-auto"
+          className="ml-auto dark:bg-[#0B1120]"
         >
           Clear Filters
         </Button>
